@@ -156,7 +156,6 @@ onUnmounted(() => {
   }
 });
 
-
 // 脚注处理
 function processFootnotes(rawMarkdown) {
   if (!rawMarkdown) return rawMarkdown;
@@ -830,7 +829,7 @@ watch(
   fill: #ffd700 !important;
   font-weight: bold !important;
   stroke: #000000 !important;
-  stroke-width: 2.5px !important;
+  stroke-width: 3px !important;
 }
 
 .readme-content :deep(.mermaid .actor text) {
